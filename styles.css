@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header */
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 19px 16px;
+}
+
+.navButton {
+	display: inline-block;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #ff3e79;
+}
+
+.navButton svg {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	border-radius: 0;
+}
+
+.navigation__burgerMenu svg {
+	width: 18px;
+	height: 16px;
+}
+
+.logo svg {
+	width: 97px;
+	height: 51px;
+}
+
+.navigation__order svg {
+	width: 20px;
+	height: 20px;
+}
+
+.navigation__orderStatus svg {
+	width: 16px;
+	height: 20px;
+}
+
+.navLine {
+	width: 3px;
+	height: 32px;
+	background-color: #EAEAEA;
+}
