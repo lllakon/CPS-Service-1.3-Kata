@@ -1,0 +1,38 @@
+/* Tablet */
+@media (min-width: 526px) {
+	.none {
+		display: inline-block;
+	}
+}
+
+/* PC */
+@media (min-width: 970px) {
+	.none {
+		display: none;
+	}
+	.navLine {
+		display: none;
+	}
+	.navigation__order a:first-child {
+		display: inline-block;
+		margin-right: 8px;
+		font-family: "TT Lakes", sans-serif;
+	}
+	.navigation__orderStatus a:first-child {
+		display: inline-block;
+		margin-right: 8px;
+		font-family: "TT Lakes", sans-serif;
+	}
+	.navigation__order {
+		display: flex;
+		align-items: center;
+	}
+	.navigation__orderStatus {
+		display: flex;
+		align-items: center;
+	}
+	.info__scrollMenu {
+		overflow: visible;
+		flex-wrap: wrap;
+	}
+}
