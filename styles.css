@@ -72,17 +72,9 @@ button {
 	height: 20px;
 }
 
-.navigation__order a:first-child {
-	display: none;
-}
-
 .navigation__orderStatus svg {
 	width: 16px;
 	height: 20px;
-}
-
-.navigation__orderStatus a:first-child {
-	display: none;
 }
 
 .navLine {
@@ -92,6 +84,15 @@ button {
 	margin: 0 4px;
 }
 
+.navigation__phone,
+.navigation__contact,
+.navigation__user {
+	display: none;
+}
+
+.pcHeader {
+	display: none;
+}
 /* Main */
 .info {
 	margin-top: 24px;
@@ -99,7 +100,7 @@ button {
 
 .info__header {
 	display: flex;
-	margin: 24px 0;
+	margin-bottom: 24px;
 	align-items: center;
 }
 .info__header::before {
@@ -121,9 +122,9 @@ button {
 	margin-left: 16px;
 }
 
-.info p,
-.info__container {
-	margin: 0 16px;
+.container {
+	margin-left: 16px;
+	margin-right: 16px;
 }
 
 .info p {
@@ -152,11 +153,19 @@ button {
 	border-radius: 6px;
 }
 
+.info-text1 {
+	display: none;
+	padding-top: 11px;
+}
+.info-text2 {
+	display: none;
+}
+
 .info__readMore {
 	display: flex;
 	gap: 16px;
 	align-items: center;
-	margin: 16px 16px;
+	margin: 16px 0;
 	font-size: 16px;
 }
 
