@@ -19,12 +19,14 @@
 		margin-right: 36px;
 		max-width: 500px;
 	}
-	.container img {
-		margin-left: auto;
-	}
 }
 
 /* PC */
+@media (min-width: 768px) {
+	body {
+		background-color: #F8F8F8;
+	}
+}
 @media (min-width: 970px) {
 	.navigation {
 		display: none;
@@ -82,9 +84,6 @@
 		display: inline-block;
 		padding-top: 11px;
 	}
-	.info__image {
-		margin-left: auto;
-	}
 }
 
 @media (min-width: 1500px) {
@@ -95,9 +94,14 @@
 	}
 	.container {
 		max-width: 2200px;
+		max-height: 2200px;
+	}
+	.info__image {
+		width: 1500px;
+		height: 925px;
 	}
 	.info__image img {
-		min-width: 150%;
-		min-height: 150%;
+		max-width: 150%;
+		max-height: 150%;
 	}
 }

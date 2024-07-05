@@ -16,6 +16,7 @@ a {
 
 button {
 	background-color: transparent;
+	cursor: pointer;
 }
 
 .none {
@@ -95,9 +96,10 @@ button {
 }
 /* Main */
 .info {
-	margin-top: 24px;
+	background-color: #F8F8F8;
+	padding-top: 19px;
+	padding-bottom: 100%;
 }
-
 .info__header {
 	display: flex;
 	margin-bottom: 24px;
@@ -175,8 +177,8 @@ button {
 }
 
 .info__image {
-	min-width: 320px;
-	min-height: 176px;
+	min-width: 250px;
+	min-height: 150px;
 }
 
 .info__image img {
