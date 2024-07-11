@@ -123,15 +123,9 @@ button {
 	font-size: 28px;
 }
 
-.info__scrollMenu button:hover {
-	background-color: rgba(213, 213, 213, 0.106);
-	border-radius: 6px;
-}
-
 .container {
 	margin-left: 16px;
 	margin-right: 16px;
-	/* cursor: default; */
 }
 
 .info p {
@@ -159,8 +153,9 @@ button {
 	padding: 8px 22px;
 }
 
-.info__scrollMenu a:hover {
-	
+.info__scrollMenu a:hover:not(.btnSelected) {
+	background-color: rgba(213, 213, 213, 0.106);
+	border-radius: 6px;
 }
 
 .btnSelected {
