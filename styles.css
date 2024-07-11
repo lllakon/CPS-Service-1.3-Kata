@@ -156,6 +156,7 @@ button {
 .info__scrollMenu a:hover:not(.btnSelected) {
 	background-color: rgba(213, 213, 213, 0.106);
 	border-radius: 6px;
+	transition: background-color .1s;
 }
 
 .btnSelected {
@@ -164,12 +165,13 @@ button {
 	background-color: #fff;
 }
 
-.info-text1 {
-	display: none;
-	padding-top: 11px;
+.info__text div {
+	max-height: 90px;
+	overflow: hidden;
 }
-.info-text2 {
-	display: none;
+
+.info__text p:last-child {
+	padding-top: 11px;
 }
 
 .info__readMore {

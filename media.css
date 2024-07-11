@@ -3,9 +3,6 @@
 	.navigation__tabletIcon {
 		display: inline-block;
 	}
-	.info-text1 {
-		display: inline-block;
-	}
 	.container {
 		display: flex;
 	}
@@ -17,7 +14,9 @@
 		margin-right: 36px;
 		max-width: 500px;
 	}
-
+	.info__text div {
+		max-height: 160px;
+	}
 }
 
 /* PC */
@@ -90,14 +89,6 @@
 		margin-right: 36px;
 		max-width: 500px;
 	}
-	.info-text1 {
-		display: none;
-	}
-	.info-text2 {
-		display: inline-block;
-		padding-top: 11px;
-	}
-
 	.info {
 		align-items: center;
 	}
