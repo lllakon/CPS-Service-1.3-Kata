@@ -28,19 +28,23 @@
 	}
 }
 @media (min-width: 970px) {
-	.navigation {
+	.navigation__rightSide,
+	.navigation__leftSide {
 		display: none;
+	}
+	.navigation {
+		float: right;
+		margin: 0;
 	}
 	.pcHeader {
 		display: flex;
 		gap: 32px;
-		float: right;
 		margin: 0 32px;
 	}
 	.info {
 		max-width: 1920px;
-		margin: 0;
-		margin: 42px 0 0 0;
+		margin-top: 42px;
+		padding: 0;
 	}
 	.info__header::before {
 		margin-right: 30px;
