@@ -179,8 +179,7 @@ body {
 	max-height: 307px;
 }
 
-/**/
-
+/* Burger menu */
 .burgerMenu--navButton {
 	display: inline-block;
 	position: relative;
@@ -188,6 +187,11 @@ body {
 	height: 40px;
 	border-radius: 50px;
 	background-color: #ff3e79;
+	transition: .2s ease-in;
+}
+
+.burgerMenu--navButton:hover {
+	opacity: .7;
 }
 
 .burgerMenu--navButton svg {
