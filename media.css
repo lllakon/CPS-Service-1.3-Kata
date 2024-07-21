@@ -113,3 +113,18 @@
 		max-height: 150%;
 	}
 }
+
+/* Burger menu */
+@media (max-height: 830px) {
+	.burgerMenu__bottom {
+		position: relative;
+		margin-top: 50px;
+	}
+	.burgerMenu,
+	.burgerMenu__container {
+		height: 100%;
+	}
+	.burgerMenu {
+		padding-bottom: 800px;
+	}
+}

@@ -101,7 +101,7 @@ button {
 .info {
 	background-color: #F8F8F8;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	border-top: 1px solid #D9FFF5;
 }
 
@@ -198,4 +198,133 @@ button {
 	width: 100%;
 	max-width: 531px;
 	max-height: 307px;
+}
+
+/**/
+
+.burgerMenu--navButton {
+	display: inline-block;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background-color: #ff3e79;
+}
+
+.burgerMenu--navButton svg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 0;
+}
+
+.burgerMenu {
+	position: absolute;
+	top: 0;
+	width: 320px;
+	height: 100vh;
+	box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.426);
+	background-color: #fff;
+	z-index: 9;
+}
+
+.burgerMenu__container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 19px 24px 32px 24px;
+	min-height: 100vh;
+}
+
+.burgerMenu__header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.burgerMenu__header a:last-child {
+	margin-left: auto;
+}
+
+.burgerMenu__header button {
+	margin-right: 17px;
+}
+
+.burgerMenu__header .burgerMenu--logo {
+	width: 97px;
+	height: 51px;
+}
+
+.burgerMenu ul li {
+	display: flex;
+	align-items: center;
+}
+
+.burgerMenu ul li:not(:last-child) {
+	margin-bottom: 32px;
+}
+
+.burgerMenu ul li a {
+	padding: 5px 0;
+}
+
+.burgerMenu ul li a:hover {
+	color: #7e7e82;
+	transition: ease-in 0.1s;
+}
+
+.burgerMenu--selected {
+	position: relative;
+	color: #7e7e82;
+}
+
+.burgerMenu--selected::before {
+	content: "";
+	position: absolute;
+	left: -24px;
+	top: -3px;
+	display: inline-block;
+	width: 4px;
+	height: 32px;
+	border-radius: 0px 50px 50px 0px;
+	background-color: #41f6d7;
+}
+
+.burgerMenu__bottom {
+	position: absolute;
+	bottom: 32px;
+}
+
+.burgerMenu__bottom div:first-child {
+	display: flex;
+	gap: 16px;
+	margin-bottom: 16px;
+}
+
+.burgerMenu__bottom div:nth-child(2n) {
+	display: flex;
+	flex-direction: column;
+	row-gap: 12px;
+	margin-bottom: 40px;
+}
+
+.burgerMenu__bottom div:nth-child(2n) a:nth-child(2n) {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.burgerMenu__bottom div:nth-child(3n) {
+	display: flex;
+	column-gap: 7px;
+}
+
+.burgerMenu__bottom div:nth-child(3n) a:hover {
+	color: #7e7e82;
+	transition: ease-in 0.1s;
+}
+
+.language--selected {
+	color: #7e7e82;
+	font: TT Lakes, sans-serif;
 }
