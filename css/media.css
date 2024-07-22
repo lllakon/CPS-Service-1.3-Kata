@@ -70,7 +70,7 @@
 		height: 40px;
 		margin-left: 8px;
 		border-radius: 50px;
-		background: url(./icons/order.svg) no-repeat #ff3e79 50%;
+		background: url(../icons/order.svg) no-repeat #ff3e79 50%;
 	}
 	.pcHeader__orderStatus a::after {
 		content: '';
@@ -80,7 +80,7 @@
 		height: 40px;
 		margin-left: 8px;
 		border-radius: 50px;
-		background: url(./icons/order.svg) no-repeat #ff3e79 50%;
+		background: url(../icons/order-status.svg) no-repeat #ff3e79 50%;
 	}
 	.container {
 		margin: 0 29px 0 32px;
